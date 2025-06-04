@@ -1,5 +1,5 @@
-import VRCamera from "./components/VRCamera";
-import VRVideo from "./components/VRVideo";
+// import VRCamera from "./components/VRCamera";
+// import VRVideo from "./components/VRVideo";
 import VRExperience from "./vr2/VRExperience";
 // import GyroControls from "./components/GyroControls";
 // import SearchBar from "./components/SearchBar";
