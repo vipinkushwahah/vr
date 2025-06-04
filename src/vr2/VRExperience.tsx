@@ -59,14 +59,14 @@ const VRViewer = ({ src, vrMode }: { src: string; vrMode: boolean }) => {
           title="Left Eye VR"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
           allowFullScreen
-          style={iframeStyle(25)}
+          style={iframeStyle(25) as React.CSSProperties}
         />
         <iframe
           src={src}
           title="Right Eye VR"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
           allowFullScreen
-          style={iframeStyle(75)}
+          style={iframeStyle(75) as React.CSSProperties}
         />
       </>
     );
